@@ -67,10 +67,13 @@ if(condition)
     //..
 }
 ```
-### 4 - Use 'using' when and wherever possible
+### 4 - Limit the function to 30 lines
+A function must be of 30 lines. If it's exceeding please create seperate helper function.
+
+### 5 - Use 'using' wherever possible
 When you are using an object that encapsulates any resource, you have to make sure that when you are done with the object, the object's Dispose method is called. This can be done more easily using the using statement in C#.
 
-### 5 - Use appropriate prefix for each of the UI elements
+### 6 - Use appropriate prefix for each of the UI elements
 | Control                   | Notation   |
 |:--------------------------|:-----------|
 | Label                     | lbl        |
