@@ -2,16 +2,16 @@
 
 
 ### 1 - Limit line length(120 max)
-Long lines are hard to read. It is a good practice to avoid writing horizontally long lines of code. Limit the line to 120 max characters. If the line gets longer than that, divide it into multiple lines.
+Long lines are hard to read. It is a good practice to avoid writing horizontally long lines of code. Limit the line to maximum 120 characters. If the line gets longer than that, divide it into multiple lines.
 
 Limit the comment to 72 characters only.
 
 ### 2 - Continuation line over-indented for hanging indent
-Although hanging indent is a part of PEP 8 gudilines. But we can use it to break code in multiple lines effectively.
+Although hanging indent is a part of PEP 8 gudilines but we can use it to break code in multiple lines effectively.
 ##### Anti-pattern
 ```csharp
  // Arguments on first line forbidden when not using vertical alignment.
- var a  = someObejct.LongFunctionName("csharp", "value 1", "value 2"
+ var a  = someObject.LongFunctionName("csharp", "value 1", "value 2"
           OtherFunction(val1, val2))
           
  // Further indentation required as indentation is not distinguishable.
@@ -27,7 +27,7 @@ Although hanging indent is a part of PEP 8 gudilines. But we can use it to break
 ##### Best practice
 ```csharp
  // Aligned with opening delimiter.
- var a  = someObejct.LongFunctionName("csharp", "value 1", "value 2"
+ var a  = someObject.LongFunctionName("csharp", "value 1", "value 2"
                                       OtherFunction(val1, val2))
 
  // Aligned with opening delimiter.                         
@@ -71,7 +71,7 @@ if(condition)
 A function must be of 30 lines. If it's exceeding please create seperate helper function.
 
 ### 5 - Use 'using' wherever possible
-When you are using an object that encapsulates any resource, you have to make sure that when you are done with the object, the object's Dispose method is called. This can be done more easily using the using statement in C#.
+When you are using an object that encapsulates any resource, you have to make sure that when you are done with the object, the object's Dispose method is called. This can be done more easily 'using' the using statement in C#.
 
 ### 6 - Use appropriate prefix for each of the UI elements
 | Control                   | Notation   |
