@@ -15,7 +15,7 @@ Although hanging indent is a part of PEP 8 gudilines but we can use it to break 
           OtherFunction(val1, val2))
           
  // Further indentation required as indentation is not distinguishable.
- Public void MyFunction(
+ public void MyFunction(
              value1, value2, 
              Value3,
              value4)
@@ -31,14 +31,14 @@ Although hanging indent is a part of PEP 8 gudilines but we can use it to break 
                                       OtherFunction(val1, val2))
 
  // Aligned with opening delimiter.                         
- Public void MyFunction(value1, value2, value3,
+ public void MyFunction(value1, value2, value3,
                         value4)
  {
      //..
  }
  
  // Add a tab spaces (an extra level of indentation) to distinguish arguments from the rest.                              
- Public void MyFunction(
+ public void MyFunction(
                 value1, value2, value3,
                 value4)
  {
