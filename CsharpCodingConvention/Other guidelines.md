@@ -47,8 +47,8 @@ Although hanging indent is a part of PEP 8 gudilines but we can use it to break 
  
  // Hanging indents should add a level.
  var a  = someObject.LongFunctionName(
-           "csharp", "value 1", "value 2"
-            OtherFunction(val1, val2))
+              "csharp", "value 1", "value 2"
+              OtherFunction(val1, val2))
  
 ```
 
